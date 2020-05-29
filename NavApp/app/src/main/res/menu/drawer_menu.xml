@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navGoods"
+        android:title="Goods" />
+    <item
+        android:id="@+id/navRent"
+        android:title="Types"/>
+    <item
+        android:id="@+id/loginStuff"
+        android:title="Login stuff"
+        android:visible="false">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/navUserProfile"
+                    android:title="Profile"/>
+                <item
+                android:id="@+id/navUserGoods"
+                android:title="My Goods"/>
+                <item
+                    android:id="@+id/navAddGoods"
+                    android:title="Add Goods"/>
+                <item
+                    android:id="@+id/navLogOut"
+                    android:title="Log Out"/>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/adminStuff"
+        android:title="Administrator stuff"
+        android:visible="false">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/navAdminTypes"
+                    android:title="Manage Types"/>
+                <item
+                    android:id="@+id/navAdminAddTypes"
+                    android:title="Add type"/>
+            <item
+                    android:id="@+id/navAdminManageUser"
+                    android:title="Manage Users"/>
+            </group>
+        </menu>
+    </item>
+</menu>
