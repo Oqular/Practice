@@ -30,6 +30,10 @@ namespace goodsShop
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+<<<<<<< HEAD:shopApi/goodsShop/Startup.cs
+=======
+
+>>>>>>> master:shop/goodsShop/Startup.cs
             string ConnectionString = Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContext<GoodsContext>(opt => opt.UseSqlServer(ConnectionString));
 
@@ -70,10 +74,22 @@ namespace goodsShop
                 app.UseHsts();
             }
 
+<<<<<<< HEAD:shopApi/goodsShop/Startup.cs
             app.UseAuthentication();
 
             app.UseHttpsRedirection();
 
+=======
+
+            app.UseHttpsRedirection();
+
+            //app.UseRouting();
+            //app.UseEndpoints(endpoints =>
+            //{
+            //    endpoints.MapControllers();
+            //});
+
+>>>>>>> master:shop/goodsShop/Startup.cs
             app.UseMvc();
         }
     }
