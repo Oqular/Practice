@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Blank</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="goodsTxt">Goods Fragment</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="type">Type</string>
+    <string name="image">Image</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="newPassword">New Password</string>
+    <string name="changePassword">Change Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="addImage">Add Image</string>
+    <string name="upload">Upload</string>
+    <string name="chooseTypes">Choose up yo 3 types</string>
+    <string name="newItem">New Item</string>
+    <string name="update">Update Info</string>
+    <string name="userInfo">User Info</string>
+    <string name="nameOfType">Name of type</string>
+    <string name="addType">Add Type</string>
+    <string name="applyChanges">Apply changes</string>
+    <string name="role">Role</string>
+    <string name="changeRole">Change Role</string>
+    <string-array name="roles">
+        <item>user</item>
+        <item>admin</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
